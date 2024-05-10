@@ -8,6 +8,7 @@ The code for ICLR 2024 paper: [Measuring Vision-Language STEM Skills of Neural M
 We recommend using Anaconda to create a new environment and install the required packages. You can create a new environment and install the required packages using the following commands:
 ```bash
 conda create -n clip python=3.10
+conda activate clip
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch
 pip install git+https://github.com/openai/CLIP.git
 pip install transformers==4.18.0
